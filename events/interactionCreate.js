@@ -4,7 +4,7 @@ module.exports = {
     name: "interactionCreate",
     async execute(interaction, client, Discord) {
 
-		// Slash commands
+	// Slash commands
         if (interaction.isCommand()) {
 			const command = client.commands.get(interaction.commandName);
 
