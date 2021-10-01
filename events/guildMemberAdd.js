@@ -6,9 +6,7 @@ module.exports = {
 
 		let profile = await profile_model.create({
 			user_id: member.id,
-			guild_id: member.guild.id,
-			xp: 0,
-			level: 0
+			currency: 0
 		});
 		profile.save()
     }
