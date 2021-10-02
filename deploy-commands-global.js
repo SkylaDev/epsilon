@@ -5,7 +5,7 @@ const { REST } = require('@discordjs/rest');
 const { Routes } = require('discord-api-types/v9');
 const { epsilon_modules } = require('./configs/epsilon_modules.json');
 const config = require('./configs/config.json');
-const { client_id, guild_id } = require('./configs/client_guild_ids.json');
+const { client_id } = require('./configs/client_guild_ids.json');
 
 var commands = [];
 var command_files = [];
